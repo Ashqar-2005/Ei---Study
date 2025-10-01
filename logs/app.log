@@ -1,0 +1,10 @@
+Oct 02, 2025 4:06:43 AM com.example.satellite.App main
+INFO: Satellite Command System started
+Oct 02, 2025 4:08:12 AM com.example.satellite.App main
+WARNING: Command execution failed: >status
+com.example.satellite.core.ValidationException: Unknown command: >status
+	at com.example.satellite.commands.CommandFactory.parse(CommandFactory.java:31)
+	at com.example.satellite.App.main(App.java:45)
+
+Oct 02, 2025 4:36:38 AM com.example.satellite.App main
+INFO: Satellite Command System started
