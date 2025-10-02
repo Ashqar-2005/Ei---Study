@@ -1,49 +1,54 @@
-🛰️ Satellite Command System
+# 🛰️ Satellite Command System
 
-🌟 Why This Project Exists
-Instead of just being another coding exercise, this project is a mini‑simulation of real aerospace challenges. It shows how I think about state management, dependencies, and system design — skills that matter in any engineering role.
+---
 
-🚀 What It Can Do
-Rotate the satellite to any direction (North, South, East, West)
+## 🌟 Why This Project Exists
+Instead of just being another coding exercise, this project is a mini‑simulation of real aerospace challenges.  
+It shows how I think about state management, dependencies, and system design — skills that matter in any engineering role.
 
-Switch solar panels on/off
+---
 
-Collect data (only when panels are active)
+## 🚀 What It Can Do
+- Rotate the satellite (North, South, East, West)  
+- Switch solar panels on/off  
+- Collect data (only when panels are active)  
+- Maintain and update state across commands  
 
-Maintain and update state across commands
+---
 
-🧩 What Makes My Approach Different
-Design Thinking: I treated the satellite like a real system with dependencies (panels must be active before data collection).
+## 🧩 What Makes My Approach Different
+- **Design Thinking:** I treated the satellite like a real system with dependencies (panels must be active before data collection).  
+- **SOLID Principles:** Code is modular and extendable — adding new commands is simple.  
+- **Error Handling:** Built‑in checks prevent invalid operations.  
+- **Logging:** Every command leaves a trace, just like in mission control.  
 
-SOLID Principles: Code is modular and extendable — adding new commands is simple.
+---
 
-Error Handling: Built‑in checks prevent invalid operations.
+## 📊 Example Mission Log
 
-Logging: Every command leaves a trace, just like in mission control.
-
-📊 Example Mission Log
-Code
-> rotate("south")
+> rotate("South")
 > activatePanels()
 > collectData()
-Final State:
 
-Orientation: South
+---
 
-Solar Panels: Active
+## 📊 Final State
+- **Orientation:** South  
+- **Solar Panels:** Active  
+- **Data Collected:** 10  
 
-Data Collected: 10
+---
 
-🛠️ Tech & Tools
-Language: Python (object‑oriented design)
+## 🛠️ Tech & Tools
+- **Language:** Python (object‑oriented design)  
+- **Patterns:** Command Pattern + State Management  
+- **Extras:** Logging, exception handling  
 
-Patterns: Command Pattern + State Management
+---
 
-Extras: Logging, exception handling
+## 💡 What I Learned
+- How to design systems that mirror real‑world constraints  
+- The importance of clean abstractions for long‑term maintainability  
+- Thinking like an engineer, not just a coder  
 
-💡 What I Learned
-How to design systems that mirror real‑world constraints
-
-The importance of clean abstractions for long‑term maintainability
-
-How to think like an engineer, not just a coder
+---
