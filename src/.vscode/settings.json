@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": ["src/main/java"],
+    "java.codeAnalysis.exclude": [
+    "CallToThreadSleep","preview"]
+    
+    
+           
+
+    
+}
+
