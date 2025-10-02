@@ -1,4 +1,4 @@
-# 🚀 Exercise 1 – Design Patterns in Java
+# 🚀  Design Patterns in Java
 
 Welcome to my **Java Design Patterns Showcase**!  
 This project is built as part of my learning journey 👨‍💻 and demonstrates how common design patterns can be applied in a simple, human‑understandable way.
@@ -61,7 +61,7 @@ Facade: Panels activated and data collected
 
 
 
-Exercise 2
+
 
 # 🛰️ Satellite Command System
 
