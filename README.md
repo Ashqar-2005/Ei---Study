@@ -19,13 +19,6 @@ This project is built as part of my learning journey 👨‍💻 and demonstrate
 
 Each pattern is implemented with a **satellite theme 🛰️** so the examples feel connected and easy to follow.
 
----
-
-## 📂 Project Structure
-
-src/ ├── app/ │ └── Main.java ├── behavioral/ │ ├── StrategyDemo.java │ └── ObserverDemo.java ├── creational/ │ ├── BuilderDemo.java │ └── FactoryDemo.java └── structural/ ├── AdapterDemo.java └── FacadeDemo.java
-
-Code
 
 ---
 
