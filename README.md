@@ -40,7 +40,7 @@ It shows how I think about state management, dependencies, and system design —
 ---
 
 ## 🛠️ Tech & Tools
-- **Language:** Python (object‑oriented design)  
+- **Language:** Java (object‑oriented design)
 - **Patterns:** Command Pattern + State Management  
 - **Extras:** Logging, exception handling  
 
